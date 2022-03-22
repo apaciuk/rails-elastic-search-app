@@ -18,6 +18,10 @@ gem 'pg', '~> 1.2'
 # Audit the Bundle  [https://www.rubydoc.info/gems/bundle-audit/0.1.0]  bundle audit --update bundle audit
 gem 'bundle-audit'
 
+# Elastic Search
+gem 'elasticsearch-model', '~> 7.1.0'
+gem 'elasticsearch-rails', '~> 7.1.0'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
 
